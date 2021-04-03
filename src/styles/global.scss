@@ -1,0 +1,9 @@
+$base-color: #ff9;
+
+body {
+    background-color: $base-color;
+    color: black;
+    background-image: url('../../public/images/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

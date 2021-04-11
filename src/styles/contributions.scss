@@ -1,0 +1,27 @@
+.contributionRow {
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.contributionColumn {
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.day {
+    
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    transition: 0.1s ease-in;
+    &:hover {
+        height: 22px;
+        width: 22px; 
+    }
+}
+
+.contributionsContainer {
+    text-align: center;
+}
